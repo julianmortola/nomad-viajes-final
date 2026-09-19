@@ -1,0 +1,29 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+%boton-base {
+  border-radius: $radio-borde;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-nomad {
+  @extend %boton-base;
+  background-color: $color-secundario;
+  color: $color-claro;
+  border: 1px solid $color-secundario;
+  @include transicion-suave(0.25s, all);
+
+  &:hover,
+  &:focus {
+    background-color: $color-secundario-oscuro;
+    color: $color-claro;
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    background-color: $color-primario;
+    color: $color-claro;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,19 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.pie {
+  background-color: $color-texto;
+  color: $color-claro;
+  padding: 25px 15px;
+  margin-top: 30px;
+
+  .enlace-pie {
+    color: $color-acento;
+    text-decoration: none;
+    @include transicion-suave(0.25s, color);
+
+    &:hover {
+      color: $color-claro;
+    }
+  }
+}

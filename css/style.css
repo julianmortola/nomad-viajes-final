@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #F7F3EC;
+  color: #24343A;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  width: 100%;
+}
+
+.hero-nomad {
+  min-height: auto;
+}
+
+.imagen-portada {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.carousel-nomad {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.imagen-carousel {
+  height: 240px;
+  object-fit: cover;
+}
+
+.formulario {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .imagen-carousel {
+    height: 360px;
+  }
+  .formulario {
+    padding: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  .hero-nomad {
+    min-height: 520px;
+  }
+  .imagen-carousel {
+    height: 420px;
+  }
+  .formulario {
+    padding: 32px;
+  }
+}
+@keyframes aparecer-suave {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.titulo-principal {
+  color: #1F4D4F;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+@media (min-width: 768px) {
+  .titulo-principal {
+    font-size: 2.1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .titulo-principal {
+    font-size: 2.4rem;
+  }
+}
+.titulo-principal {
+  animation: aparecer-suave 0.7s ease-out;
+}
+
+.titulo-seccion {
+  color: #D9825B;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+@media (min-width: 768px) {
+  .titulo-seccion {
+    font-size: 1.55rem;
+  }
+}
+@media (min-width: 1024px) {
+  .titulo-seccion {
+    font-size: 1.7rem;
+  }
+}
+
+.titulo-tarjeta {
+  color: #1F4D4F;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navbar-nomad {
+  background-color: #1F4D4F;
+}
+
+.marca {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #FFFFFF;
+  font-weight: 600;
+  transition: color 0.25s ease;
+}
+.nav-link:hover, .nav-link:focus {
+  color: #F2C9A5;
+}
+.nav-link:active {
+  color: #D9825B;
+}
+
+.pie {
+  background-color: #24343A;
+  color: #FFFFFF;
+  padding: 25px 15px;
+  margin-top: 30px;
+}
+.pie .enlace-pie {
+  color: #F2C9A5;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+.pie .enlace-pie:hover {
+  color: #FFFFFF;
+}
+
+.btn-nomad {
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-nomad {
+  background-color: #D9825B;
+  color: #FFFFFF;
+  border: 1px solid #D9825B;
+  transition: all 0.25s ease;
+}
+.btn-nomad:hover, .btn-nomad:focus {
+  background-color: #B96845;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+.btn-nomad:active {
+  background-color: #1F4D4F;
+  color: #FFFFFF;
+  transform: translateY(0);
+}
+
+.tarjeta-simple, .tarjeta-interactiva {
+  border-radius: 8px;
+  border: 1px solid #D9CDBF;
+}
+
+.tarjeta-interactiva {
+  background-color: #F0E7DC;
+  transition: all 0.3s ease;
+}
+.tarjeta-interactiva:hover {
+  border-color: #D9825B;
+  transform: translateY(-5px);
+}
+.tarjeta-interactiva:active {
+  background-color: #E8DACA;
+}
+
+.tarjeta-simple {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.campo-interactivo {
+  transition: border-color 0.25s ease;
+}
+.campo-interactivo:hover {
+  border-color: #D9825B;
+}
+.campo-interactivo:focus {
+  border-color: #1F4D4F;
+  box-shadow: 0 0 0 0.2rem rgba(31, 77, 79, 0.15);
+}
+
+/*# sourceMappingURL=style.css.map */

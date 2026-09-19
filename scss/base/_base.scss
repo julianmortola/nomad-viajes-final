@@ -1,0 +1,79 @@
+@use "../utilities/variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: $color-fondo;
+  color: $color-texto;
+  font-family: $fuente-principal;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  width: 100%;
+}
+
+.hero-nomad {
+  min-height: auto;
+}
+
+.imagen-portada {
+  width: 100%;
+  border-radius: $radio-borde;
+}
+
+.carousel-nomad {
+  width: 100%;
+  max-width: $ancho-carousel;
+  margin: 0 auto;
+}
+
+.imagen-carousel {
+  height: 240px;
+  object-fit: cover;
+}
+
+.formulario {
+  background-color: $color-claro;
+  padding: 20px;
+  border-radius: $radio-borde;
+}
+
+@media (min-width: 768px) {
+  .imagen-carousel {
+    height: 360px;
+  }
+
+  .formulario {
+    padding: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-nomad {
+    min-height: 520px;
+  }
+
+  .imagen-carousel {
+    height: 420px;
+  }
+
+  .formulario {
+    padding: 32px;
+  }
+}

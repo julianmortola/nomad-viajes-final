@@ -1,0 +1,23 @@
+@use "variables" as *;
+
+@mixin transicion-suave($duracion: $transicion, $propiedad: all) {
+  transition: $propiedad $duracion ease;
+}
+
+@mixin titulo($color, $tamano, $peso) {
+  color: $color;
+  font-size: $tamano;
+  font-weight: $peso;
+}
+
+@mixin responsive-texto($mobile, $tablet, $desktop) {
+  font-size: $mobile;
+
+  @media (min-width: 768px) {
+    font-size: $tablet;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: $desktop;
+  }
+}

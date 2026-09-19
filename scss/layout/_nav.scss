@@ -1,0 +1,17 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.nav-link {
+  color: $color-claro;
+  font-weight: 600;
+  @include transicion-suave(0.25s, color);
+
+  &:hover,
+  &:focus {
+    color: $color-acento;
+  }
+
+  &:active {
+    color: $color-secundario;
+  }
+}

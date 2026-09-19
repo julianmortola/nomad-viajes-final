@@ -1,0 +1,15 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.campo-interactivo {
+  @include transicion-suave(0.25s, border-color);
+
+  &:hover {
+    border-color: $color-secundario;
+  }
+
+  &:focus {
+    border-color: $color-primario;
+    box-shadow: 0 0 0 0.2rem rgba(31, 77, 79, 0.15);
+  }
+}
