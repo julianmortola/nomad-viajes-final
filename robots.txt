@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://julianmortola.github.io/nomad-viajes-9/sitemap.xml
