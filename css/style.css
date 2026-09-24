@@ -102,7 +102,7 @@ main {
 }
 
 .titulo-seccion {
-  color: #D9825B;
+  color: #B85F3D;
   font-size: 1.4rem;
   font-weight: 600;
   font-size: 1.4rem;
@@ -142,7 +142,7 @@ main {
   color: #F2C9A5;
 }
 .nav-link:active {
-  color: #D9825B;
+  color: #B85F3D;
 }
 
 .pie {
@@ -167,13 +167,13 @@ main {
 }
 
 .btn-nomad {
-  background-color: #D9825B;
+  background-color: #B85F3D;
   color: #FFFFFF;
-  border: 1px solid #D9825B;
+  border: 1px solid #B85F3D;
   transition: all 0.25s ease;
 }
 .btn-nomad:hover, .btn-nomad:focus {
-  background-color: #B96845;
+  background-color: #93482E;
   color: #FFFFFF;
   transform: translateY(-2px);
 }
@@ -193,7 +193,7 @@ main {
   transition: all 0.3s ease;
 }
 .tarjeta-interactiva:hover {
-  border-color: #D9825B;
+  border-color: #B85F3D;
   transform: translateY(-5px);
 }
 .tarjeta-interactiva:active {
@@ -210,7 +210,7 @@ main {
   transition: border-color 0.25s ease;
 }
 .campo-interactivo:hover {
-  border-color: #D9825B;
+  border-color: #B85F3D;
 }
 .campo-interactivo:focus {
   border-color: #1F4D4F;
