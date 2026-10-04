@@ -22,12 +22,6 @@ npm install
 npx sass scss/main.scss css/style.css
 ```
 
-## Publicación prevista
+## Sitio publicado
 
-GitHub Pages:
-
-`https://julianmortola.github.io/nomad-viajes-9/`
-
-Repositorio a entregar:
-
-`https://github.com/julianmortola/nomad-viajes-9`
+https://nomad-viajes-final.vercel.app

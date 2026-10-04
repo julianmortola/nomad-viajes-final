@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://julianmortola.github.io/nomad-viajes-9/</loc></url>
-  <url><loc>https://julianmortola.github.io/nomad-viajes-9/pages/servicios.html</loc></url>
-  <url><loc>https://julianmortola.github.io/nomad-viajes-9/pages/planes.html</loc></url>
-  <url><loc>https://julianmortola.github.io/nomad-viajes-9/pages/faq.html</loc></url>
-  <url><loc>https://julianmortola.github.io/nomad-viajes-9/pages/contacto.html</loc></url>
+  <url>
+    <loc>https://nomad-viajes-final.vercel.app/</loc>
+  </url>
+  <url>
+    <loc>https://nomad-viajes-final.vercel.app/pages/servicios.html</loc>
+  </url>
+  <url>
+    <loc>https://nomad-viajes-final.vercel.app/pages/planes.html</loc>
+  </url>
+  <url>
+    <loc>https://nomad-viajes-final.vercel.app/pages/faq.html</loc>
+  </url>
+  <url>
+    <loc>https://nomad-viajes-final.vercel.app/pages/contacto.html</loc>
+  </url>
 </urlset>
